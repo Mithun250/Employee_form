@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Validation</title>
+</head>
+<body>
+    <div class="container" id="tab1">
+        <div class="header">
+            <h2>Registration Form</h2>
+        </div>
+        <form class="form"id="form" >
+        
+            <div class="form-group">
+                <label >Email <span class="required">*</span> </label>
+                <input type="email" placeholder="Email" id = "email" autocomplete="off" class="required1">
+                <p></p>
+            </div>
+           
+            <div class="form-group">
+                <label>Password <span class="required">*</span> </label>
+                <input type="password" placeholder="Password" id = "password" autocomplete="off" class="required1">
+                <p></p>
+            </div>
+            <div class="form-group">
+                <label >Confirm Password <span class="required">*</span> </label>
+                <input type="password" placeholder="Confirm Password" id = "password2" autocomplete="off" class="required1">
+                <p></p>
+            </div>
+
+            <div class="form-group">
+                <label >UserName <span class="required">*</span> </label>
+                <input type="text" placeholder="Username" id = "username" autocomplete="off" class="required1">
+                
+               <p></p>
+            </div>
+
+            <div class="form-group">
+                <label >LastName </label>
+                <input type="text" placeholder="Lastname" id = "lastname" autocomplete="off">
+
+                
+               <p></p>
+            </div>
+
+            <button type="button" value="Click" id="btn1">Next</button>
+           
+
+        </form>
+   </div>
+
+
+            <div class="container_2" id="tab2"> 
+                <div class="header">
+                    <h2>Registration Form</h2>
+                </div>
+                <form class="form"id="form">
+                
+                    <div class="form-group">
+                        <label >Date Of Birth <span class="required">*</span> </label>
+                        <input type="date" placeholder="DOB" id = "dob" autocomplete="off" class="required2">
+    
+                        
+                    
+                        <p></p>
+                    </div>
+                   
+                    <div class="group">
+                        <label for="gender">Gender</label>
+                        <input type="radio" name="gender">Male
+                        <input type="radio" name="gender">Female
+                        <input type="radio" name="gender">Prefer not to say <br>
+                        <p></p>
+                    </div>
+                    <div class="form-group">
+                        <label >Address</label><br>
+                        <textarea id="address" name="address" rows="3" cols="50"></textarea>
+    
+                        
+                        
+                        <p></p>
+                    </div>
+        
+                    <div class="form-group">
+                        <label >State  <span class="required">*</span></label>
+                        <select  id="state" class="required2">
+                            <option value="">Choose a State</option>
+                            <option value="AP">Andhra Pradesh</option>
+                            <option value="AR">Arunachal Pradesh</option>
+                            <option value="AS">Assam</option>
+                            <option value="BR">Bihar</option>
+                            <option value="CH">Chandigarh</option>
+                            <option value="CT">Chhattisgarh</option>
+                            <option value="DL">Delhi</option>
+                            <option value="GA">Goa</option>
+                            <option value="GJ">Gujarat</option>
+                            <option value="HR">Haryana</option>
+                            <option value="HP">Himachal Pradesh</option>
+                            <option value="JK">Jammu and Kashmir</option>
+                            <option value="JH">Jharkhand</option>
+                            <option value="KA">Karnataka</option>
+                            <option value="KL">Kerala</option>
+                            <option value="LA">Ladakh</option>
+                            <option value="LD">Lakshadweep</option>
+                            <option value="MP">Madhya Pradesh</option>
+                            <option value="MH">Maharashtra</option>
+                            <option value="MN">Manipur</option>
+                            <option value="ML">Meghalaya</option>
+                            <option value="MZ">Mizoram</option>
+                            <option value="NL">Nagaland</option>
+                            <option value="OR">Odisha</option>
+                            <option value="PY">Puducherry</option>
+                            <option value="PB">Punjab</option>
+                            <option value="RJ">Rajasthan</option>
+                            <option value="SK">Sikkim</option>
+                            <option value="TN">Tamil Nadu</option>
+                            <option value="TG">Telangana</option>
+                            <option value="TR">Tripura</option>
+                            <option value="UP">Uttar Pradesh</option>
+                            <option value="UT">Uttarakhand</option>
+                            <option value="WB">West Bengal</option>
+                             </select>
+                       <p></p> 
+                       
+                    </div>
+                    
+                    <div class="form-group">
+                        <label >Mobile Number <span class="required">*</span> </label>
+                        <input type="text" placeholder="Mobile Number " id = "mobilenumber" autocomplete="off" class="required2">
+    
+                        
+                       <p></p>
+                    </div>
+
+                    <button type="button" value="Click"id="btn2">Previous</button>
+                    <button type="button" value="Click"id="btn3">Next</button>
+                    
+                   
+                </form>
+            </div>
+
+
+
+
+            <div class="container_3" id="tab3">
+                <div class="header">
+                    <h2>Registration Form</h2>
+                </div>
+                <form class="form"id="form">
+                
+                    <div class="group">
+                        <label for="occupation">Occupation</label> <br>
+                         <input type="radio" id="fresher" name="occupation" value="fresher">Fresher
+                         <input type="radio" id="experienced" name="occupation" value="experienced"> Experienced
+        
+                    </div>
+                   
+                    <div class="form-group">
+                        <label>Overall Years of Experience </label>
+                        <input type="number" placeholder=" Years of Experience" id = "years" autocomplete="off">
+                        <p></p>
+                    </div>
+                    <button type="button" value="Click"id="btn4">Previous</button>
+                    <button type="button" value="Click"id="btn5">Next</button>
+                    
+                   
+                </form>
+            </div>
+
+
+            <div class="container_4" id="tab4">
+                <div class="header">
+                    <h2>Registration Form</h2>
+                </div>
+                <form class="form"id="form">
+                
+                    <div class="group">
+        
+                        <label for="graduation">Graduation <span class="required">*</span> </label> 
+                        <input type="checkbox" name="graduation">SSLC
+                        <input type="checkbox" name="graduation">HSC
+                        <input type="checkbox" name="graduation">B.E/B.Tech
+                        <p></p> <p></p>
+                    </div>
+                   
+                    <div class="form-group">
+                        <label>Year of passing <span class="required">*</span> </label>
+                        <input type="month" placeholder=" Years of Experience" id = "years" autocomplete="off" class="required3">  
+                        <p></p>
+                    </div>
+                    <button type="button" value="Click"id="btn6">Previous</button>
+                    <button type="button" value="Click"id="btn7">Next</button>
+                                     
+                </form>
+            </div>
+
+
+            <div class="container_5" id="tab5">
+                <div class="header">
+                    <h2>Registration Form</h2>
+                </div>
+                <form class="form"id="form" action="index_6.html" method="post">
+                
+                    <div class="form-group">
+        
+                        <label >Department/Practice <span class="required">*</span></label>
+                        <select class="select" id="dep">
+                            <option value="">Choose a Department/Practice</option>
+                            <option value="LA">LAMP</option>
+                            <option value="BF">BFS</option>
+                            <option value="NE">.Net</option>
+                            <option value="OR">Oracle</option>
+                        </select>
+                        <p></p>
+                    </div>
+                                       
+                    <div class="tacbox">
+                        <input id="checkbox" type="checkbox">
+                        <label for="checkbox"> I agree to these <a href="#"> Terms and Conditions</a>.</label>
+                      </div>
+                  
+                      <button type="button" value="Click"id="btn8">Previous</button>
+                      <button type="submit" value="Submit"id="btn9" disabled>Submit</button>
+                    
+                   
+                </form>
+            </div>
+
+<script src="main.js"></script>
+
+    </script>
+</body>
+</html>
